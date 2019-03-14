@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    url:
+    username:
+    password:
+    driver-class-name: com.mysql.jdbc.Driver
+  application:
+    name: authorization
+  redis:
+    host: 127.0.0.1
+    port: 6379
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+    
+logging:
+  level:
+    com:
+      cristi:
+        dao: debug
